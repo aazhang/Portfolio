@@ -192,6 +192,9 @@ h2.project-type {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: column nowrap;
 	flex-flow: column nowrap;
 }
 
@@ -205,8 +208,16 @@ h2.project-type {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 
-	flex-flow: row wrap;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+
+	-webkit-box-direction: normal;
+
+	    -ms-flex-flow: row wrap;
+
+	        flex-flow: row wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 
 	padding-bottom: 20px;
 	padding-right: 12%;
