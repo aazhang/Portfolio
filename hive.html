@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio of Anna Zhang</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,700|Playfair+Display:700" rel="stylesheet">
+</head>
+
+<body id="hive">
+	<nav id="top-nav-bar">
+	<h4 id="logo"><a href="index.html">Anna Zhang</a></h4>
+	<ul class="navigation">
+		<li><a href="index.html">Work</a></li>
+		<li><a href="about.html">About</a></li>
+	</ul>
+	</nav>
+
+	<header class="header">
+		<h2 class="project-type">Mobile Design</h2>
+		<h1>Hive</h1>
+
+		<p>Hive is a project management and team communication tool. It brings tasks, messages, and files into an all-purpose dashboard. In late 2016, Hive set out to redesign the mobile experience. You can download the app <a href="https://itunes.apple.com/us/app/hive-home-for-busy-teams/id992040020?mt=8">here</a>.</p>
+	</header>
+
+	<main>
+		<img src="images/hive/hive-feature-image.jpg" alt="Hive Feature Image" class="feature-image">
+		
+		<div class="flex-grid">
+
+			<section class="new-section flex-row">
+				<div class="flex-col">
+					<h4>My Role</h4>
+					<p>I led product design for this redesign. I gathered user feedback, wireframed, prototyped, delivered high-fidelity mockups, and worked closely with our team of engineers during development.</p>
+				</div>
+
+				<div class="flex-col">
+					<h4>The Problem</h4>
+					<p>The Hive mobile app is built with Cordova, which essentially packages our current web app as a mobile app. The previous design reflected this and it was time for a tailored mobile experience. Although we plan to build a native app in the future, for this redesign we set out to build a MVP mobile experience with the main goals of improving usability and performance.</p>
+				</div>
+			</section>
+
+			<section class="new-section grey-background">
+				<div class="flex-row">
+					<div class="flex-col">
+						<h4>Understanding the User</h4>
+						<p>I began this project by interviewing users to understand user needs, behaviors and pain points of a mobile app counterpoints. Research revealed how the app fits into the lives of the users. For example, users often use the mobile app when they are on the go or when they first wake up.</p>
+					</div>
+
+					<div class="flex-col">
+						<p>Discovering that the context in which a user used the mobile app greatly differed from a desktop app allowed us to prioritize what features to focus on for version 1. We set out to launch an MVP of the desktop service with focus on three main scenarios:</p>
+			<!-- 		</div>
+				</div>
+
+				<div class="flex-row"> -->
+					<p>1. I want to quickly communicate with my team members.</p>
+			<!-- 	</div>
+
+				<div class="flex-row"> -->
+					<p>2. I want to see what’s on my plate for today.</p>
+			<!-- 	</div>
+
+				<div class="flex-row"> -->
+					<p>3. I want to stay up to date on changes to projects and actions.</p>
+				</div>
+
+			</section>
+
+			<section class="new-section">
+				<div class="flex-row">
+					<div class="flex-col">
+						<h4>Prototyping Interactions</h4>
+						<p>Since nearly everything on our desktop app can be dragged and dropped, I spent a lot of time thinking of how interactions would work on mobile and created early prototypes to share with the team. I wanted the interactions to help the user maintain contect and improve percieved performance, however I was cautious that it didn’t feel disruptive either.</p>
+					</div>
+
+					<div class="flex-col">
+						<p>In the end many of these interactions did not make it into V1 launch as we found that it’s hard to get it right through Cordova. We have put interactions on the roadmap for when we launch a native app.</p>
+					</div>
+				</div>
+
+				<div class="flex-row thirds">
+					<img src="images/hive/mobile-interaction-1.gif" alt="Interaction 1">
+
+					<img src="images/hive/mobile-interaction-2.gif" alt="Interaction 2">
+
+					<img src="images/hive/mobile-interaction-3.gif" alt="Interaction 1">
+				</div>
+			</section>
+
+			<section class="new-section grey-background">
+				<div class="flex-row">
+					<div class="flex-col">
+						<h4>Following Best Practices</h4>
+						<p>For V1 of the redesign, I frequently referred to iOS design guidelines and set out to ensure that the mobile app followed best practices such as typography, styling and size of navigation bar / tab bar, and larger touchpoints. </p>
+					</div>
+				</div>
+
+				<div class="flex-row">
+					<img src="images/hive/mobile-ui-elements.png" alt="Hive Mobile UI Elements">
+				</div>
+			</section>
+
+			<section class="new-section ">
+				<div class="flex-row">
+					<div class="flex-col">
+						<h4>From Stories to Features</h4>
+						<p>Our decision to focus on three main uses cases instead of a full-featured mobile application was very intentional. As an early-stage startup, our product is always in flux and we are releasing new features daily. This strategy allowed us to refine the core experience and not waste time redesigning features that might be nixed in a few weeks.</p>
+					</div>
+				</div>
+
+				<div class="flex-row">
+					<div class="flex-col">
+						<h4>"I want to quickly communicate with my team members"</h4>
+						<p>Research showed that the core use of the mobile app was to communicate with team members. With this insight, we brought messaging to the forefront. I opted to separate the navigation panel from the chat panel to allow users to easily scan through chat groups and team members. I also added a top section so that all unread messages are above the fold.</p>
+					</div>
+
+					<div class="flex-col">
+						<img src="images/hive/mobile-messaging.png" alt="Hive Mobile Messaging">
+					</div>
+				</div>
+
+				<div class="flex-row">
+					<div class="flex-col">
+						<h4>"I want to see what’s on my plate for today"</h4>
+						<p>The second tab is for actions with “My Actions” as the default. This tab only contains actions assigned to the user, sorted by priority. This way a user can navigate to the second tab and see what tasks he/she need to work on for that day.</p>
+					</div>
+
+					<div class="flex-col">
+						<img src="images/hive/Mobile-My-Actions.png" alt="Hive My Actions">
+					</div>
+				</div>
+
+				<div class="flex-row">
+					<div class="flex-col">
+						<h4>"I want to stay up to date on changes to projects and actions"</h4>
+						<p>With new actions, comments, changes to statuses, and more there can be a LOT of notifications in Hive. To ensure the notifications page would actually be useful I grouped updates by action and then chronologically. I also separated updates from mentions as testing with the team revealed that users are often looking for notifications specifically relating to them.</p>
+					</div>
+
+					<div class="flex-col">
+						<img src="images/hive/mobile-notifications.png" alt="Hive My Actions">
+					</div>
+				</div>
+
+			</section>
+
+		</div>
+	</main>
+
+	<aside class="next-project">
+		<a href="nwtn.html">	
+			<p>NEXT UP</p>
+			<div class="project-name">
+				<h5>NWTN</h5>
+				<img src="images/next-project-icon.svg" id="next-project">	
+			</div>
+		</a>
+	</aside>
+
+	<footer>
+		<div class="footer-section">
+
+		<div class="footer-icons">
+			<a href="https://twitter.com/annaphant"><img src="images/twitter-icon.svg" alt="Twitter" id="twitter-icon"></a>
+
+			<a href="https://dribbble.com/annazhang"><img src="images/dribbble-icon.svg" alt="Dribbble" id="dribbble-icon"></a>
+
+			<a href="https://www.linkedin.com/in/annazhang91"><img src="images/linkedin-icon.svg" alt="LinkedIn" id="linkedin-icon"></a>
+
+			<a href="https://www.instagram.com/annaphant/"><img src="images/instagram-icon.svg" alt="Instagram" id="instagram-icon"></a>
+		</div>
+
+		<a href="mailto:aa.zhang.19@gmail.com?Subject=Hello%20again" target="_top">aa.zhang.19@gmail.com</a>
+		</div>
+
+		<p>Designed and developed by Anna Zhang. All rights reserved.</p>
+	</footer>
+
+</body>
