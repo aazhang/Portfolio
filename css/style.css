@@ -488,8 +488,12 @@ footer p {
 		font-size: 32px;
 	}
 
+	.header {
+		max-width: 80%;
+	}
+
 	#home .header {
-		max-width: 90%;
+		max-width: 80%;
 	}
 
 	#top-nav-bar {
