@@ -488,6 +488,14 @@ footer p {
 		font-size: 32px;
 	}
 
+	#home .header {
+		max-width: 90%;
+	}
+
+	#top-nav-bar {
+		padding: 30px 12% 0px 12%;
+	}
+
 	.project-thumbnail h3 {
 		font-size: 32px;
 	}
@@ -516,15 +524,23 @@ footer p {
 	        flex-flow: column nowrap;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	 justify-content: space-between;
 
 	padding-bottom: 20px;
 	padding-right: 12%;
 	padding-left: 12%;
 	}
 
-	.header {
-		max-width: 80%;
+	#hive .thirds {
+	display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	-webkit-box-orient: horizontal !important;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row nowrap !important;
+	        flex-flow: row nowrap !important;
+	justify-content: space-between;
 	}
 
 	#top-nav-bar #logo {
@@ -537,6 +553,10 @@ footer p {
 
 	footer {
 		text-align: center !important;
+	}
+
+	.footer-icons a {
+		padding-right: 2px;
 	}
 
 	.contact-footer {
