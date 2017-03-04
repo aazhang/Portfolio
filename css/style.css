@@ -35,9 +35,9 @@ p {
 	-ms-flex-flow: row nowrap;
 	        flex-flow: row nowrap;
 	padding: 30px 12% 30px 12%;
+	justify-content: flex-start;
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
-	        justify-content: flex-start;
 	z-index: 2;
 	position: fixed;
 	width: 80%;
@@ -111,7 +111,7 @@ header p {
 
 .projects img {
 	width: 100%;
-	min-width: 320px;
+	/*min-width: 320px;*/
 }
 
 .project-thumbnail {
@@ -492,12 +492,38 @@ footer p {
 		font-size: 32px;
 	}
 
-
-	.header {
-		max-width: 80%;
+	.projects {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-flow: column nowrap;
+		        flex-flow: column nowrap;
+		padding: 0px 12%;
 	}
 
-	#home .header {
+	.flex-row {
+	display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+
+	    -ms-flex-flow: column nowrap;
+
+	        flex-flow: column nowrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+
+	padding-bottom: 20px;
+	padding-right: 12%;
+	padding-left: 12%;
+	}
+
+	.header {
 		max-width: 80%;
 	}
 
