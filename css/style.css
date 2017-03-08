@@ -497,7 +497,7 @@ footer p {
 	}
 
 	#top-nav-bar {
-		padding: 30px 12% 0px 12%;
+		padding: 30px 10% 0px 10%;
 	}
 
 	.project-thumbnail h3 {
@@ -512,7 +512,7 @@ footer p {
 		-webkit-box-direction: normal;
 		    -ms-flex-flow: column nowrap;
 		        flex-flow: column nowrap;
-		padding: 0px 12%;
+		padding: 0px 10%;
 	}
 
 	.flex-row {
@@ -531,8 +531,8 @@ footer p {
 	 justify-content: space-between;
 
 	padding-bottom: 20px;
-	padding-right: 12%;
-	padding-left: 12%;
+	padding-right: 10%;
+	padding-left: 10%;
 	}
 
 	#hive .thirds {
@@ -545,6 +545,14 @@ footer p {
 	    -ms-flex-flow: row nowrap !important;
 	        flex-flow: row nowrap !important;
 	justify-content: space-between;
+	}
+
+	#NWTN .invision-prototype {
+		display: none;
+	}
+
+	#about .header {
+		padding-bottom: 50px;
 	}
 
 	#top-nav-bar #logo {
