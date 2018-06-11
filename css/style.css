@@ -23,6 +23,7 @@ a:hover {
 
 p {
 	line-height: 1.6 !important;
+	padding-bottom: 10px;
 }
 
 #top-nav-bar {
