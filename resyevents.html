@@ -9,7 +9,7 @@
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 </head>
 
-<body id="winstagram">
+<body id="resyevents">
 	<nav id="top-nav-bar">
 	<h4 id="logo"><a href="index.html">Anna Zhang</a></h4>
 	<ul class="navigation">
@@ -27,20 +27,48 @@
 	</header>
 
 	<main>
-		<img src="images/winstagram/winstagram-feature-image.png" alt="Winstagram Feature Image" class="feature-image">
+		<img src="images/resyevents/resyevents-feature-image.png" alt="Resy Events Feature Image" class="feature-image">
 		
 		<div class="flex-grid">
 			<section class="new-section flex-row">
-				<div class="flex-col">
+				<div class="flex-4col">
+					<img class="vertical-img" src="images/resyevents/events-highlight-1.png" alt="Highlight">
+					<h4>The Problem</h4>
+					<p>Restaurants need a way to manage and merchandise events separate from normal service.</p>
+				</div>
+
+				<div class="flex-4col">
+					<img class="vertical-img" src="images/resyevents/events-highlight-2.png" alt="Highlight">
+					<h4>The Solution</h4>
+					<p>A full suite events platform.</p>
+				</div>
+
+				<div class="flex-4col">
+					<img class="vertical-img" src="images/resyevents/events-highlight-3.png" alt="Highlight">
 					<h4>My Role</h4>
-					<p>I led product design on this project - I built prototypes, tested with over 30 clients, and produced high-fidelity designs for both development and marketing purposes. I worked closely with a product manager, product marketing manager and a team of 5 engineers.</p>
+					<p>Lead designer and researcher.</p>
+				</div>
+
+				<div class="flex-4col">
+					<img class="vertical-img" src="images/resyevents/events-highlight-4.png" alt="Highlight">
+					<h4>The Impact</h4>
+					<p>3X increase in completion rate, 1.5X increase in self-serve creation rate , 3X increase in pre-paid event types</p>
+				</div>
+			</section>
+
+
+			<section class="new-section flex-row">
+				<div class="flex-col">
+					<h4>Problem Context</h4>
+					<p>Although our core reservation management product was not geared towards events, our support and account management team frequently received requests to create events. In 2018, we had a total of 600 event requests. While we knew there was interest in merchandising and managing events through Resy, we needed to understand how much time and effort to invest.</p>
+
+					<br>
+
+					<p> To gauge to level of interest, we launched a V0 events feature in early 2019. After we launched the V0 events feature, we saw over 600 events created in Q2 alone. While interest was high, initial data from V0 also pointed towards several usability issues and feature needs.</p>
 				</div>
 
 				<div class="flex-col">
-					<h4>The Challenge</h4>
-					<p>Curalate first launched as a social analytics tool in 2012. Throughout the years, our product offering grew beyond social as the business focused more effort on ecommerce solutions. As a result, our social tools had not been evaluated for some time. Competitors were rapidly catching up and even exceeding our offerings. With this launch, it was important that we regained the support of our initial user base.</p>
-
-					<p>With a three month timeframe, my team was tasked with revamping our Instagram offering, code name project #WINstagram. Our goal for this project was to improve core workflows for Social Media Managers and become the gold standard once again. We had a tight 3-month timeline as the company hoped that this reboot would impact contract renewals and lead to potential new businesses to close out 2017.</p>
+					<img src="images/resyevents/v0-event-stats.png" alt="V0 Event Statistics">
 				</div>
 			</section>
 
@@ -48,123 +76,232 @@
 				<div class="flex-row">
 					<div class="flex-col">
 						<h4>Initial Research</h4>
-						<p>With a short timeframe, we didn’t have the luxury of conducting in-depth discovery research. As a proxy, we spoke with customer success managers and scoured through feedback tickets to get an initial understanding of our users, their needs and workflows.</p>
+						<p>While many event products exist in the market, none cater towards culinary experiences and target a restaurant user base. What to build and how much effort to invest was ambiguous and open-ended. To better understand the problem, I conducted interviews with 9 restaurants and shadowed 2 event series.</p>
 					</div>
 
 					<p class="flex-col">
-						The primary users of Curalate's social analytic tools are Social Media Managers or other members of a social team. Social Media Managers are responsible for managing a brands' social media networks with the goal of increasing top-of-funnel metrics (brand awareness, engagement, and audience count). Below is a snapshot of their core workflow:
+						Sharing the research with my team, I led a journey mapping exercise where we wrote down insights from each interview on sticky notes and began grouping into themes.
 					</p>					
 				</div>
 
 				<div class="flex-row">
-					<img src="images/winstagram/smm_workflow.png" alt="Social Media Manager Core Workflow">
+					<img src="images/resyevents/event-research.png" alt="Research Snapshot">
 				</div>
 
 				<div class="flex-row">
-					<div class="flex-col">
-						<p>With a better understanding of our user base and their workflow, my product manager and I worked together to compile use cases and high-level requirements. This served as the building block for further product documentation that was shared with the executive team.</p>
-					</div>
+
+						<div class="flex-col">
+							<h4>Key Research Insights</h4>
+
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/number-block-1.png" alt="Insight">
+								<p>Events allow restaurants to reward regulars and convert new diners to regulars.</p>
+							</div>
+
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/number-block-2.png" alt="Insight">
+								<p>Events are an expensive venture and some restaurants have trouble selling out and turning a profit without proper marketing tools.</p>
+							</div>
+
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/number-block-3.png" alt="Insight">
+								<p>Events are concept-driven and this determines how they are sold (price point, guest count, etc).</p>
+							</div>
+						</div>
+
+						<div class="flex-col">
+							<p>Restaurants run events in a variety of formats:</p>
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/number-block-1.png" alt="Insight">
+								<p>General Admission Events</p>
+							</div>
+
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/number-block-2.png" alt="Insight">
+								<p>Assigned Seating Events</p>
+							</div>
+
+							<br>
+
+							<p>Any event format can be run in different capacities:</p>
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/number-block-1.png" alt="Insight">
+								<p>Full takeover</p>
+							</div>
+
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/number-block-2.png" alt="Insight">
+								<p>Partial capacity, typically alongside service</p>
+							</div>
+						</div>
 				</div>
 
-				<div class="flex-row">
-					<img src="images/winstagram/high-level-requirements.png" alt="High-Level Requirements">
-				</div>
 			</section>
 
 			<section class="new-section">
 				<div class="flex-row">
 					<div class="flex-col">
-						<h4>Validating Direction</h4>
-						<p>Early brainstorm sessions with the team led to an initial concept that would soon become the #Winstagram Dashboard. The vision was to create a “one-stop shop” dashboard that catered to our social media managers core workflows. Previously, our social analytic pages were scattered across the platform and it was hard for users to get a solid understanding of overall analytics.</p>
-					</div>
-				</div>
-
-				<div class="flex-row">
-					<img src="images/winstagram/early-iteration.png" alt="Sketches & Wireframes">
+						<h4>Design Details</h4>
+						<p>I tackled designs in 3 phases: event creation workflow, event management dashboard, and event check-in experience.</p>
+					</div>				
 				</div>
 
 				<div class="flex-row">
 					<div class="flex-col">
-						<p>I quickly mocked up a proof of concept and we went to gather feedback with clients. During this phase of testing, we chatted with 9 clients. Some early learnings are:</p>
+						<h4>Creating Events</h4>
+						<p>As a restaurant's main line of business is not hosting events, creating events involves several major decision points with regards to normal service. I anchored event creation based on event formats to give users a guided workflow for each. I used existing workflow conventions so managing an event felt just as familiar as running normal service. Early usability tests showed that we were heading in the right direction and pointed out areas of improvement.</p>
 					</div>
+				</div>
+				<div class="flex-row">
+					<img src="images/resyevents/event-creation-screens.png" alt="Event Creation Designs">
+				</div>
 
+				<div class="flex-row">
 					<div class="flex-col">
-						<p>1. We were going in the right direction with a “One-stop shop” - users felt the previous workflows was very clunky and loved being able to pull up a quick overview.</p>
-						<p>2. Reporting needed to be more flexible and allow clients to investigate peaks and lows</p>
-						<p>3. Clients wanted more than just the ability to schedule - they also wanted to plan and manage content</p>
+						<h4>Managing Events</h4>
+						<p>From the moment tickets go on sale to the moment guests enter the door, restaurants are looking at a variety of factors and metrics to guide changes in ticket quantity, price point, menu options, and more. I designed a dashboard that allowed restaurants to easily track sales and manage changes.</p>
+					</div>
+				</div>
+				<div class="flex-row">
+					<img src="images/resyevents/event-management-screens.png" alt="Event Management Designs">
+				</div>
+
+				<div class="flex-row">
+					<div class="flex-col">
+						<h4>Day of Event</h4>
+						<p>One of my favorite parts of this project was designing the day of check-in experience. During my event shadows, I noticed that the start of a General Admission events was the most hectic and long check-in lines were often a point of frustration for guests. While our need was too custom for native Apple controls, I wanted to interaction to still feel familiar. After many iterations, I landed on a fun swipe to check-in experience that achieved the goal of a quick and seamless check-in experience.</p>
 					</div>
 				</div>
 
-				<section class="new-section grey-background">
+				<div class="flex-row">
+					<img src="images/resyevents/event-checkin-states.png" alt="Event Checkin States">
+				</div>
+
+				<div class="flex-row">
+					<div class="flex-col">
+						<h4>Full Party Check-In</h4>
+						<p>Swipe right to quickly check in multiple guests who purchased tickets together. Restaurants loved this feature as other event platforms require checking in each individual guest, however most culinary event tickets are purchased by party.</p>
+					</div>
+
+					<div class="flex-col">
+						<img src="images/resyevents/full-checkin.gif" alt="Full Checkin Animation">
+					</div>
+				</div>
+
+				<div class="flex-row">
+					<div class="flex-col">
+						<h4>Partial Party Check-In</h4>
+						<p>Quickly check in partial parties and track how many guests have left to arrive. Guests frequently do not arrive with their full party and tracking this per party for events was previously a huge painpoint with our existing reservation management tool.</p>
+					</div>
+					<div class="flex-col">
+						<img src="images/resyevents/partial-checkin.gif" alt="Full Checkin Animation">
+					</div>
+				</div>
+			</section>
+			
+
+			<section class="new-section grey-background">
 					<div class="flex-row">
 						<div class="flex-col">
-							<h4>Design Details & Iteration</h4>
-							<p>Once we determined a solid direction, it was time to iterate and get down to the details. We continued to test with clients every week - overall we tested with nearly 20 clients during this phase. It was great to have such frequent feedback sessions as we were able to get quick validation on open questions. </p>
-							<p>Below are deep dives into design iterations and solutions for various aspects of the dashboard:</p>
+							<h4>Beta Testing & Learning</h4>
+							<p>We launched the events product to beta in time for Valentine’s Day 2020 - one of the single largest revenue driving nights of the year. This was the first time Resy conducted a formalized beta test for a feature launch. I led research for the initial beta phase with 12 restaurants ranging across major markets and different tiers of restaurants. We required that restaurants involved in this beta phase participate in several calls with me throughout different touchpoints of their events. Through this process, we were able to identify and quickly address launch blockers, bugs, and usability issues. It also led to a backlog of feature improvements that we are continuing to work through. Below are a few insights from the beta test.</p>
+
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/number-block-1.png" alt="Insight">
+								<p>Restaurants are repeat users - an average of 3 events were created per venue.</p>
+							</div>
+
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/number-block-2.png" alt="Insight">
+								<p>Restaurants are frequently experimenting with new event concepts and formats, even after ticket sales are live, resulting in a high number of changes.</p>
+							</div>
+
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/number-block-3.png" alt="Insight">
+								<p>Restaurants are not utilizing option to save events as draft and are instead going live right away to see their event page.</p>
+							</div>
 						</div>
-					</div>
-				
-					<div class="flex-row">
+
 						<div class="flex-col">
-							<h4>End-to-end Scheduling flow</h4>
-							<p>A key consideration for this new dashboard was the scheduling component. A scheduler allows users to schedule content (posts, gallery posts, and stories) to Instagram. Our legacy scheduler was incredibly hard to use and resulted in many new client questions and support tickets. From our first phase of testing, we knew that we also needed to support the ability to plan, manage, and schedule content. With this in mind, I explored a wide array of concepts to support the end-to-end scheduling workflow.</p>
+							<img src="images/resyevents/beta-research.png" alt="Beta Research Doc">
 						</div>
-					</div>
-
-					<div class="flex-row">
-						<img src="images/winstagram/scheduler-iterations.png" alt="Scheduler Iterations">
-					</div>
-
-					<div class="flex-row">
-						<div class="flex-col">
-							<p>After sharing with the team, I then prototyped the workflows and went to gather feedback from users. During user testing, we found that users strongly preferred designs that incorporated a shareable content calendar and preview of the brand’s Instagram feed. Post release, we received feedback from several clients that the new scheduler helped streamline their workflow and even replaced other tools. The scheduler is now the most highly viewed page on the platform.</p>
-						</div>
-					</div>
-
-					<div class="flex-row">
-						<img src="images/winstagram/scheduler-final-designs.png" alt="Scheduler Final Designs">
-					</div>
-
-					<div class="flex-row">
-						<div class="flex-col">
-							<h4>Designing Reporting Patterns</h4>
-							<p>When designing this dashboard, I strived to stay cohesive with our style guide and pattern library. However, our previous design system lacked patterns geared towards reporting and data analysis. Below is a look at a few new pattern additions - we are continuing to add to our metric components to ensure we were building reusable components for this and future projects.</p>
-						</div>
-					</div>
-
-					<div class="flex-row">
-						<img src="images/winstagram/metric-patterns.png" alt="Additions to Pattern Library">
 					</div>
 			</section>
 
 			<section class="new-section">
 					<div class="flex-row">
 						<div class="flex-col">
-							<h4>Results</h4>
-							<p>About a month after launch, the new dashboard impacted nearly $650K in ARR. Impact was calculated by if a client stated the new dashboard as a key factor during renewal or sales process. Although the main impact was on existing clients, we also influenced a healthy chunk of new business as well.</p>
-				
-							<p>For me, the most rewarding results were qualitative feedback. Post-launch, several clients shared great feedback about the ease of use and look & feel.</p>
+							<h4>Launch</h4>
+							<p>Soon after we rolled out this feature to all restaurants, the covid-19 pandemic hit and restaurants across the globe were forced to close. While the events feature hasn’t been used in the capacity we expected, this tool has provided restaurants with alternative ways to market and manage alternative revenue streams such as takeout, virtual events, and more. The usage of this feature has exceeded my teams' expectations and led to signficant increases in usability metrics as well as a 3X increase in pre-paid events, helping Resy hit revenue targets each quarter.</p>
 						</div>
-					</div>
 
-					<div class="flex-row">
-						<img src="images/winstagram/customer-quotes.png" alt="Customer Quotes">
+						<div class="flex-col">
+							<img src="images/resyevents/v1-event-stats.png" alt="V1 Event Stats">
+						</div>
 					</div>
 
 
 					<div class="flex-row">
 						<div class="flex-col">
-							<p>Overall, I was really proud of my team for taking a user-centered approach towards this reboot. I truly believe the success of this project was due to our empathy towards our users and drive to listen hard and iterate until we got it right. Due to the tight timeline, a lot of features had to be cut for initial release but stay tuned for some awesome fast follows!</p>
+							<p>Feedback from restaurants has been extremely positive, below are a few comments we received post launch.</p>
 						</div>
 					</div>
+
+					<div class="flex-row">
+						<div class="card">
+							<h4>This was the easiest thing I did all day.</h4>
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/montclair-feedback.png" alt="Montclair Feedback">
+								<p>Montclair Social Club</p>
+							</div>
+						</div>
+
+						<div class="card">
+							<h4>The 'add' that this will have for us the customer will be huge and key for the development of our industry so THANK YOU!</h4>
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/montclair-feedback.png" alt="Montclair Feedback">
+								<p>Wild Common</p>
+							</div>
+						</div>
+
+						<div class="card">
+							<h4>Love the ease of use during service to check in guests.</h4>
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/montclair-feedback.png" alt="Montclair Feedback">
+								<p>Fat Rice</p>
+							</div>
+						</div>
+
+						<div class="card">
+							<h4>Super easy to set up an event.</h4>
+							<div class="flex-horizontalimg">
+								<img class="horizontal-img" src="images/resyevents/montclair-feedback.png" alt="Montclair Feedback">
+								<p>Delicious Hospitality Event</p>
+							</div>
+						</div>
+
+<!-- 						<div class="flex-4col">
+							<img src="images/resyevents/events-feedback-2.png" alt="Restaurant Feedback">
+						</div>
+
+						<div class="flex-4col">
+							<img src="images/resyevents/events-feedback-3.png" alt="Restaurant Feedback">
+						</div>
+
+						<div class="flex-4col">
+							<img src="images/resyevents/events-feedback-4.png" alt="Restaurant Feedback">
+						</div> -->
+					</div>
 			</section>
+
+		</div>
 	</main>
 
 	<aside class="next-project">
-		<a href="hive.html">	
+		<a href="winstagram.html">	
 			<p>NEXT UP</p>
 			<div class="project-name">
-				<h5>Hive</h5>
+				<h5>#WINstagram</h5>
 				<img src="images/next-project-icon.svg" id="next-project">	
 			</div>
 		</a>

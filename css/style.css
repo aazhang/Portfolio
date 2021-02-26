@@ -1,6 +1,7 @@
 body {
 	font-family: 'Karla', sans-serif !important;
 	box-sizing: border-box;
+	color: #394551;
 }
 
 h1, h3 {
@@ -181,6 +182,7 @@ h2.project-type {
 	width :100% !important;
 }
 
+
 .new-section {
 	padding-top: 50px;
 	padding-bottom: 50px !important;
@@ -236,6 +238,50 @@ h2.project-type {
 	width: 45%;
 	min-width: 310px;
 	padding-top: 20px;
+}
+
+.flex-4col {
+	width: 22%;
+	padding-top: 20px;
+}
+
+
+.flex-horizontalimg {
+	display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+	-webkit-box-orient: horizontal;
+
+	-webkit-box-direction: normal;
+
+	    -ms-flex-flow: row;
+	        flex-flow: row;
+
+	padding-top: 10px;
+}
+
+
+.horizontal-img {
+	height: 24px !important;
+	width: 24px !important;
+	padding-right: 20px;
+}
+
+.vertical-img {
+	height: 44px !important;
+	width: 44px !important;
+	padding-bottom: 20px;
+}
+
+.card {
+	width: 20%;
+	padding-top: 20px;
+	border: 1px solid #E2E2E2;
+	border-radius: 4px;
+	padding: 20px;
+	height: 100%;
 }
 
 .next-project {
@@ -490,6 +536,35 @@ footer p {
 }
 
 
+/*ResyEvents Styling*/
+
+#resyevents #logo {
+	color: #0EC9A0;
+}
+
+#resyevents a {
+	color: #0EC9A0;
+}
+
+#resyevents .navigation a:hover {
+	color: #0EC9A0;
+}
+
+#resyevents h1 {
+	color: #0EC9A0;
+}
+
+#resyevents img {
+	max-width: 100%;
+	/*width: 1000px;*/
+	/*height: 100%;*/
+	width: 100%;
+}
+
+#resyevents .next-project {
+	background-color: #8FAFC4;
+}
+
 /*About Styling*/
 #about .about {
 	color: #D3AF7B;
@@ -563,6 +638,25 @@ footer p {
 	padding-bottom: 20px;
 	padding-right: 10%;
 	padding-left: 10%;
+	}
+
+	.flex-4col {
+		width: 100%;
+		padding-top: 20px;
+/*		align-items: center;*/
+		padding-bottom: 20px;
+	}
+
+
+	.card {
+		width: 90% !important;
+		margin-bottom: 20px;
+		padding: 5%;
+/*		padding-top: 20px;
+		border: 1px solid #E2E2E2;
+		border-radius: 4px;
+		padding: 20px;
+		height: 100%;*/
 	}
 
 	#hive .thirds {
