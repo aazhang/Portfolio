@@ -42,7 +42,7 @@ p {
 	-ms-flex-pack: start;
 	z-index: 2;
 	position: fixed;
-	width: 80%;
+	width: 76%;
 	background-color: #fff;
 }
 
@@ -687,7 +687,6 @@ footer p {
 	padding-bottom: 20px;
 	padding-right: 10%;
 	padding-left: 10%;
-	height: 100%;
 	}
 
 	.flex-4col {
@@ -721,6 +720,10 @@ footer p {
 		width: 92% !important;
 		margin-bottom: 20px;
 		padding: 4%;
+	}
+
+	.mobile-img-row {
+		height: 100% !important;
 	}
 
 	#hive .thirds {
