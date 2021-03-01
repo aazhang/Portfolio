@@ -604,7 +604,7 @@ footer p {
 }
 
 
-.card {
+#resyitems .card {
 	width: 28% !important;
 	border: 1px solid #E2E2E2;
 	border-radius: 4px;
@@ -687,6 +687,7 @@ footer p {
 	padding-bottom: 20px;
 	padding-right: 10%;
 	padding-left: 10%;
+	height: 100%;
 	}
 
 	.flex-4col {
@@ -721,15 +722,6 @@ footer p {
 		margin-bottom: 20px;
 		padding: 4%;
 	}
-
-	#resyitems img {
-		height: 100%;
-	}
-
-	#resyevents img {
-		height: 100%;
-	}
-
 
 	#hive .thirds {
 	display: flex;
