@@ -10,6 +10,7 @@ h1, h3 {
 
 h4 {
 	font-weight: 700 !important;
+	line-height: 1.6 !important;
 }
 
 a {
@@ -286,7 +287,10 @@ h2.project-type {
 }
 
 .full-row-img {
-	height: 100%;
+	display: flex;
+	flex-direction: row;
+	width: auto;
+/*	height: 100%;*/
 }
 
 .card {
