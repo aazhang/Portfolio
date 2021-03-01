@@ -571,8 +571,47 @@ footer p {
 }
 
 #resyevents .next-project {
+	background-color: #417DFF;
+}
+
+/*Resy Items Styling*/
+
+#resyitems #logo {
+	color: #417DFF;
+}
+
+#resyitems a {
+	color: #417DFF;
+}
+
+#resyitems .navigation a:hover {
+	color: #417DFF;
+}
+
+#resyitems h1 {
+	color: #417DFF;
+}
+
+#resyitems img {
+	max-width: 100%;
+	/*width: 1000px;*/
+	/*height: 100%;*/
+	width: 100%;
+}
+
+#resyitems .next-project {
 	background-color: #8FAFC4;
 }
+
+
+.card {
+	width: 28% !important;
+	border: 1px solid #E2E2E2;
+	border-radius: 4px;
+	padding: 2%;
+	height: 100%;
+}
+
 
 
 /*About Styling*/
