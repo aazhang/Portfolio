@@ -652,6 +652,7 @@ footer p {
 
 	#top-nav-bar {
 		padding: 30px 10% 0px 10%;
+		width: 80%;
 	}
 
 	.project-thumbnail h3 {
@@ -722,8 +723,14 @@ footer p {
 		padding: 4%;
 	}
 
+	#resyitems .card {
+		width: 92% !important;
+		margin-bottom: 20px;
+		padding: 4%;
+	}
+
 	.mobile-img-row {
-		height: 100% !important;
+		height: auto !important;
 	}
 
 	#hive .thirds {
