@@ -722,6 +722,15 @@ footer p {
 		padding: 4%;
 	}
 
+	#resyitems img {
+		height: 100%;
+	}
+
+	#resyevents img {
+		height: 100%;
+	}
+
+
 	#hive .thirds {
 	display: flex;
 	display: -webkit-box;
