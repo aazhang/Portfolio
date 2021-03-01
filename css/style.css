@@ -285,6 +285,10 @@ h2.project-type {
 	max-width: 500px;
 }
 
+.full-row-img {
+	height: 100%;
+}
+
 .card {
 	width: 20%;
 	border: 1px solid #E2E2E2;
@@ -727,10 +731,6 @@ footer p {
 		width: 92% !important;
 		margin-bottom: 20px;
 		padding: 4%;
-	}
-
-	.mobile-img-row {
-		height: auto !important;
 	}
 
 	#hive .thirds {
