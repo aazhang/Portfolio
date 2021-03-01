@@ -239,6 +239,7 @@ h2.project-type {
 	width: 45%;
 	min-width: 310px;
 	padding-top: 20px;
+	height: 100%;
 }
 
 .flex-4col {
@@ -285,13 +286,6 @@ h2.project-type {
 .stat-img {
 	max-width: 500px;
 }
-
-/*.full-row-img {
-	display: flex;
-	flex-direction: row;
-/*	width: auto;
-	height: 100%;*/
-}*/
 
 .card {
 	width: 20%;
@@ -574,7 +568,7 @@ footer p {
 #resyevents img {
 	max-width: 100%;
 	/*width: 1000px;*/
-	/*height: 100%;*/
+	height: 100%;
 	width: 100%;
 }
 
@@ -603,7 +597,7 @@ footer p {
 #resyitems img {
 	max-width: 100%;
 	/*width: 1000px;*/
-	/*height: 100%;*/
+	height: 100%;
 	width: 100%;
 }
 
@@ -686,9 +680,9 @@ footer p {
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 
-	    -ms-flex-flow: column nowrap;
+/*	    -ms-flex-flow: column nowrap;
 
-	        flex-flow: column nowrap;
+	        flex-flow: column nowrap;*/
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	 justify-content: space-between;
@@ -723,26 +717,6 @@ footer p {
 	padding-bottom: 20px;
 	width: 100%;
 	}
-
-/*	.full-row-img {
-	display: flex;
-	display: flex;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-
-	    -ms-flex-flow: column nowrap;
-
-	        flex-flow: column nowrap;
-/*	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	 justify-content: space-between;*/
-
-/*	height: 100%;
-	}*/
-
 
 
 	.card {
