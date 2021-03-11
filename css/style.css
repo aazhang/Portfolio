@@ -551,14 +551,18 @@ footer p {
 	padding-top: 20px;
 }
 
-.about-photos {
+/*.about-photos {
 	width: 84%;
+}*/
+
+#about .header {
+	padding-top: 100px !important;
 }
 
-#about img {
+#about-image {
 	max-width: 100%;
-	width: 100%;
-	height: 100%;
+	height: 330px;
+	padding-bottom:40px;
 }
 
 #about .top-nav-bar{
